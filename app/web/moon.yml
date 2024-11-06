@@ -1,0 +1,16 @@
+tasks:
+  dev:
+    command: "pnpm dev"
+    inputs: ["packages/ui/**"]
+  build:
+    command: "pnpm build"
+    outputs:
+      - ".next"
+  lint:
+    command: "pnpm lint"
+  test:
+    command: "pnpm test"
+  docker:
+    command: "docker-compose up --build"
+  docker-down:
+    command: "docker-compose down"

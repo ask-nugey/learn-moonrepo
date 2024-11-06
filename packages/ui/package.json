@@ -1,0 +1,18 @@
+{
+  "name": "@packages/ui",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.ts",
+  "types": "./index.tsx",
+  "dependencies": {
+    "@packages/eslint-config": "workspace:*",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@packages/ts-config": "workspace:*",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "typescript": "^5.0.0"
+  }
+}

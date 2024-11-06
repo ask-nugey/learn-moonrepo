@@ -1,0 +1,24 @@
+{
+	// linter
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": "explicit"
+	},
+	"eslint.useESLintClass": true,
+	"eslint.workingDirectories": [
+		"./app/web",
+		"./packages/eslint-config",
+		"./packages/ts-config",
+		"./packages/ui"
+	],
+
+	// formatter
+	"editor.defaultFormatter": "dbaeumer.vscode-eslint",
+	"editor.formatOnSave": true,
+	"editor.formatOnPaste": true,
+	"editor.formatOnType": true,
+
+	/* Typescript */
+	// プロジェクトのtsバージョンを優先
+	// 公式URL: https://code.visualstudio.com/docs/typescript/typescript-compiling#_using-the-workspace-version-of-typescript
+	"typescript.tsdk": "node_modules/typescript/lib"
+}
